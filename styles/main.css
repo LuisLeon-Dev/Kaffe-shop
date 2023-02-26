@@ -26,6 +26,10 @@ section h3 {
   margin: 2.5rem;
 }
 
+h4 {
+  font-weight: bold;
+  margin-top: 15px;
+}
 .boton {
   background-color: #ffc0ad;
   color: #000;
@@ -54,30 +58,15 @@ section img {
 /*Navbar*/
 header {
   padding: 1rem 2.5rem;
-
   border-bottom: 1px solid rgb(107, 105, 105);
 }
 
-header ul {
-  display: inline;
-  position: absolute;
-  right: 2.5rem;
-  top: 1.5rem;
-}
-nav li {
-  display: inline;
-}
-
-li a {
-  color: black;
-  text-decoration: none;
-  margin-left: 1rem;
-}
-li a:hover {
+.nav-link:hover {
   cursor: pointer;
   color: rgb(145, 111, 85);
   transition: 0.5s ease;
 }
+
 .logo a {
   font-family: "Pacifico", cursive;
   font-size: 24px;
@@ -130,6 +119,9 @@ p {
   margin-bottom: 2rem;
 }
 
+.servicio {
+  margin-top: 25px;
+}
 /*Pagina de productos*/
 .categorias {
   display: flex;
