@@ -17,6 +17,7 @@ h1 {
 
 h2 {
   font-size: 24px;
+  font-weight: 700;
   text-transform: capitalize;
   text-align: center;
   margin-top: 2rem;
@@ -149,27 +150,41 @@ p {
 }
 
 /*Nosotros seccion*/
-.nosotros {
-  width: 70%;
-  margin: 0 auto;
-}
-
 .nosotros_info {
   display: flex;
-  align-items: center;
-  margin-bottom: 2rem;
 }
-.nosotros_info p {
-  padding: 2rem;
-  margin: 0 2rem;
+.seccion_nosotros {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.nosotros-content {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
 }
 
-.leftSide {
-  order: 1;
+.centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .rightSide {
-  order: 2;
+  order: 1;
+}
+
+@media screen and (max-width: 990px) {
+  .nosotros-content {
+    margin: 1.5rem;
+  }
+  .nosotros-content img {
+    margin-top: 20px;
+  }
+  .leftSide {
+    order: 2;
+  }
 }
 
 /*Pagina de contacto*/
@@ -213,7 +228,10 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-
+.footer-p {
+  display: flex;
+  gap: 3rem;
+}
 .contact {
   display: flex;
   margin-bottom: 10px;
