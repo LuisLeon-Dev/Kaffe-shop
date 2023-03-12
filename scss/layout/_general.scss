@@ -1,0 +1,41 @@
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+section h3 {
+    margin: 2.5rem;
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 700;
+    margin-top: 15px;
+
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+section img {
+    width: 250px;
+    height: 250px;
+}
+
+.seccion_intro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 2.5rem;
+}

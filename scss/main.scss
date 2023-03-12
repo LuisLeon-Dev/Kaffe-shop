@@ -1,0 +1,21 @@
+//utilites
+@import 'utilities/variables';
+
+//base
+@import 'base/reset';
+@import 'base/typo';
+
+//layout
+@import 'layout/general';
+@import 'layout/footer';
+@import 'layout/navbar';
+
+//components
+@import 'components/buttons';
+
+//views
+@import 'views/contacto';
+@import 'views/index';
+@import 'views/nosotros';
+@import 'views/servicio';
+@import 'views/producto';

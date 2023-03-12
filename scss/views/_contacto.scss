@@ -1,0 +1,43 @@
+.contact_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    label{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    }
+    input:not(input[type="button"]){    
+    height: 2.5em;
+    padding: 10px;
+    }
+
+    textarea{
+        padding: 15px;
+    }
+
+    .boton{
+        margin: 15px 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .contact_form{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .contact_form{
+        display: block;
+    }
+}
+
+
+
+

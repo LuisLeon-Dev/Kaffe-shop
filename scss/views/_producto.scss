@@ -1,0 +1,17 @@
+.categorias {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    margin-top: 15px;
+
+    input {
+        margin: 2rem;
+    }
+
+
+}
+
+.producto {
+    margin: 2rem;
+}
