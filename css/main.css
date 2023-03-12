@@ -445,11 +445,17 @@ form .boton {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 50%;
+  width: 60%;
   padding: 3rem;
 }
 .hero_info h1, .hero_info p {
   margin-bottom: 1.5rem;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+.hero_info .boton {
+  animation-duration: 1s;
+  animation-name: slidein;
 }
 
 /*index complemento*/
@@ -482,13 +488,27 @@ form .boton {
   }
   .hero_info p {
     font-size: 12px;
+    animation: none;
   }
   .hero_info h1 {
     font-size: 24px;
+    animation: none;
+  }
+  .hero_info .boton {
+    animation: none;
   }
   h2 {
     font-size: 18px;
     margin-top: 2.5rem;
+  }
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
   }
 }
 .nosotros_info {
