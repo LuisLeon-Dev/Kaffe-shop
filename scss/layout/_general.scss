@@ -1,14 +1,22 @@
-h1 {
+@mixin text(){
     font-size: 36px;
-    font-weight: 700;
-}
-
-h2 {
-    font-size: 24px;
     font-weight: 700;
     text-transform: capitalize;
     text-align: center;
     margin-top: 2rem;
+}
+
+h1 {
+   @include text();
+}
+
+.hero_info h1{
+    text-align: left;
+}
+
+h2{
+    @include text();
+    font-size: 28px;
 }
 
 section h3 {
@@ -19,12 +27,18 @@ section h3 {
 h4 {
     font-weight: 700;
     margin-top: 15px;
+    font-size: 20px;
 
 }
 
 main {
     width: 90%;
     margin: 0 auto;
+    h3{
+        font-weight: 700;
+        margin: 1rem 2.5rem ;
+        font: 24px;
+    }
 }
 
 section img {
@@ -38,4 +52,10 @@ section img {
     text-align: center;
     margin-top: 20px;
     padding: 2.5rem;
+}
+
+@media screen and (max-width: 425px){
+    h1{
+        font-size: 24px;
+    }
 }

@@ -35,3 +35,37 @@
     }
 }
 
+
+
+@media screen and (max-width: 750px) {
+    .hero{
+        img{
+            display: none;
+        }
+        &_info{
+            width: 90%;
+        }
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .hero {
+            &_info {
+                width: 90%;
+              
+                p{
+                    font-size: 12px;
+                }
+
+                h1{
+                    font-size: 24px;
+                }
+            }
+        
+        }
+    h2{
+        font-size: 18px;
+        margin-top: 2.5rem;
+    }
+}
