@@ -6,6 +6,11 @@
     margin-top: 2rem;
 }
 
+body{
+    background-color: $background_color;
+    color: $font_color
+}
+
 h1 {
    @include text();
 }

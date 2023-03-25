@@ -240,6 +240,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  background-color: #fffbfb;
+  color: #292929;
+}
+
 h1 {
   font-size: 36px;
   font-weight: 700;
@@ -482,7 +487,7 @@ form .boton {
     width: 90%;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 490px) {
   .hero_info {
     width: 90%;
   }
